@@ -2,7 +2,7 @@
 #ifndef TOURNOMANT_H
 #define TOURNOMANT_H
 #include <iostream> 
-
+#include "extra_function.h"
 using namespace std;
 
 class tournament
@@ -12,6 +12,7 @@ class tournament
 	string *team_name;
 	int number; //max number of ourteam
 public:
+	time tournomentt;
 	tournament(string tournament_name, int type, int number);
 	~tournament();
 	friend ostream& operator << (ostream &out, tournament &tour);
@@ -27,6 +28,7 @@ class match        //this class is for save in a file
 	string teams_name[2];
 	int score[2]; 
 public:
+	time tournomentt;
 	friend ostream& operator << (ostream &out, match &tour);
 	friend istream& operator >> (istream &input, match &tour);
 };
