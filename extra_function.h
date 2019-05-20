@@ -15,7 +15,7 @@ struct times
 	int hour;
 	int minute;
 	int secund;
-}
+};
 
 class time
 {
