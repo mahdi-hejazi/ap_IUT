@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\login.o
+./release\organizer_footsal.o
+./release\signin.o
+./release\moc_mainwindow.o
+./release\moc_login.o
+./release\moc_organiizer.o
+./release\moc_organizer_footsal.o
+./release\moc_signin.o
+);

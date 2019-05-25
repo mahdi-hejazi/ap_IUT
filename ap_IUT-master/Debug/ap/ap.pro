@@ -27,19 +27,25 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    login.cpp
+    login.cpp \
+    organizer_footsal.cpp \
+    signin.cpp
 
 HEADERS += \
         mainwindow.h \
     mainwindow.h \
-    organizer.h \
     participant.h \
     tournament.h \
-    login.h
+    login.h \
+    organiizer.h \
+    organizer_footsal.h \
+    signin.h
 
 FORMS += \
         mainwindow.ui \
-    login.ui
+    login.ui \
+    organizer_footsal.ui \
+    signin.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
