@@ -4,9 +4,13 @@ INPUT(
 ./release\login.o
 ./release\organizer_footsal.o
 ./release\signin.o
+./release\organizer_boxing.o
+./release\organizer_wrestling.o
+./release\qrc_resourse.o
 ./release\moc_mainwindow.o
 ./release\moc_login.o
-./release\moc_organiizer.o
 ./release\moc_organizer_footsal.o
 ./release\moc_signin.o
+./release\moc_organizer_boxing.o
+./release\moc_organizer_wrestling.o
 );

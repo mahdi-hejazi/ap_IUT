@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../ap/organizer_footsal.h"
+#include "../../../ap_IUT-master/ap/organizer_footsal.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
@@ -78,6 +78,8 @@ void *organizer_footsal::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_organizer_footsal.stringdata0))
         return static_cast<void*>(this);
+    if (!strcmp(_clname, "organizer"))
+        return static_cast< organizer*>(this);
     return QWidget::qt_metacast(_clname);
 }
 

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/background_image">
+        <file>image/footsal4.jpg</file>
+        <file>image/wellcome/wellcome.jpg</file>
+        <file>image/wellcome/box2_wellcome.jpg</file>
+        <file>image/wellcome/footsal2_wellcome.jpg</file>
+    </qresource>
+</RCC>

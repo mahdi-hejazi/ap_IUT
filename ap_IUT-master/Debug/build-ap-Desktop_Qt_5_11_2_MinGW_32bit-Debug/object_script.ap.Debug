@@ -4,9 +4,13 @@ INPUT(
 ./debug\login.o
 ./debug\organizer_footsal.o
 ./debug\signin.o
+./debug\organizer_boxing.o
+./debug\organizer_wrestling.o
+./debug\qrc_resourse.o
 ./debug\moc_mainwindow.o
 ./debug\moc_login.o
-./debug\moc_organiizer.o
 ./debug\moc_organizer_footsal.o
 ./debug\moc_signin.o
+./debug\moc_organizer_boxing.o
+./debug\moc_organizer_wrestling.o
 );
