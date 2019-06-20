@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>footsall_participant</class>
+ <widget class="QWidget" name="footsall_participant">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>753</width>
+    <height>529</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="tournoments">
+   <property name="geometry">
+    <rect>
+     <x>282</x>
+     <y>30</y>
+     <width>224</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>مسابقات</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tour_info">
+   <property name="geometry">
+    <rect>
+     <x>82</x>
+     <y>40</y>
+     <width>269</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>جهت شرکت در یک تورنومنت روی آن کلید کنید</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tournoments_info">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>601</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>نام تورنومنت</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>تاریخ شروع</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ساعت شروع</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>تعداد تیم ها</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>تیم ها</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>توضیح</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="refresh">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>press &quot;F5&quot; to refresh</string>
+   </property>
+   <property name="text">
+    <string>refresh</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

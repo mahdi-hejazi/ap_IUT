@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>edit_footsal_paticipant</class>
+ <widget class="QWidget" name="edit_footsal_paticipant">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>944</width>
+    <height>784</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>160</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLineEdit" name="usename_3">
+      <property name="placeholderText">
+       <string>نام کاربری </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pass_3">
+      <property name="placeholderText">
+       <string>رمز عبور</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="email_3">
+      <property name="placeholderText">
+       <string>@gmail.com</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="team_name_3">
+      <property name="placeholderText">
+       <string>نام تیم</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>40</y>
+     <width>281</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_3">
+    <item row="0" column="0">
+     <widget class="QLineEdit" name="codemeli1">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="name1">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="codemeli2">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="name2">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="codemeli3">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="name3">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLineEdit" name="codemeli4">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="name4">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLineEdit" name="codemeli5">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="name5">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLineEdit" name="codemeli6">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="name6">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLineEdit" name="codemeli7">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="name7">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLineEdit" name="codemeli8">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="name8">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLineEdit" name="codemeli9">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="name9">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLineEdit" name="codemeli10">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>کد ملی</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="name10">
+      <property name="placeholderText">
+       <string>نام بازیکن</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="edit">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>390</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>اعمال تغییرات</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
